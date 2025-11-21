@@ -15,13 +15,16 @@ As condições de Coffman presentes são:
 - manter-e-esperar,  
 - não preempção,  
 - espera circular (responsável crítica pelo impasse).
+  
 Código: `DeadlockDemo.java`
+
 ---
 
 ## Solução
 
 Adotar uma **ordem global** de aquisição dos recursos.  
 Todas as threads passam a adquirir sempre `LOCK_A` antes de `LOCK_B`, eliminando a possibilidade de espera circular.
+
 Código: `DeadlockResolvido.java`
 
 ---
