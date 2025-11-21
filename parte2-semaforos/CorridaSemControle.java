@@ -34,3 +34,7 @@ public class CorridaSemControle {
         );
     }
 }
+/*
+Saída:
+Esperado=2000000 | Obtido=1713245 | Tempo=0,042s
+ */
