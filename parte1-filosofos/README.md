@@ -33,7 +33,7 @@ Isso satisfaz **todas as quatro condições de Coffman**, caracterizando deadloc
 3. Não preempção ✔  
 4. Espera circular ✔
 
-Código: `DiningPhilosophersDeadlock.java`
+Código: `JantarFilosofosDeadlock.java`
 
 ---
 
@@ -45,7 +45,7 @@ Cada filósofo sempre adquire primeiro o garfo de **menor índice**, depois o de
 
 Isso elimina a condição de **espera circular**, impossibilitando o deadlock.
 
-Código: `DiningPhilosophersSolution.java`
+Código: `JantarFilosofosSolucao.java`
 
 ---
 
@@ -53,14 +53,14 @@ Código: `DiningPhilosophersSolution.java`
 
 | Arquivo | Descrição |
 |--------|-----------|
-| `DiningPhilosophersDeadlock.java` | Implementação com deadlock (protocolo ingênuo). |
-| `DiningPhilosophersSolution.java` | Implementação correta usando hierarquia de recursos. |
-| `relatorio_parte1.pdf` *(opcional)* | Relatório com explicações conceituais. |
+| `JantarFilosofosDeadlock.java` | Implementação com deadlock (protocolo ingênuo). |
+| `JantarFilosofosSolucao.java` | Implementação correta usando hierarquia de recursos. |
 
 ---
 
-## Execução
+## Execução e Compilação 
 
-### Compilar
+## Executar
 ```bash
-javac DiningPhilosophers*.java
+javac JantarFilosofosDeadlock.java
+javac JantarFilosofosSolucao.java
