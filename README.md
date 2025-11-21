@@ -46,5 +46,5 @@ java NomeDaClasse
 As instruções específicas estão descritas nos READMEs de cada parte.
 
 ## Vídeo de apresentação
-
+https://youtu.be/1vtde-uklCQ
 
