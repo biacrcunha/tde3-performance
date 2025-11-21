@@ -1,5 +1,5 @@
-# TDE3 – Performance e Sistemas Concorrentes  
-Trabalho desenvolvido para a disciplina de Sistemas Operacionais.
+# TDE3 – Performance em Sistemas Ciberfísicos
+
 
 ## Integrantes do grupo
 - **Beatriz Ceciliato Robaskievicz da Cunha**
@@ -15,7 +15,7 @@ parte2-semaforos/ → Condição de corrida e semáforo binário
 
 parte3-deadlock/ → Deadlock com dois locks e prevenção
 
-tde3-relatorio.pdf 
+docs/  → relatório completo e prints/ logs. 
 
 Cada pasta contém:
 - Códigos Java da respectiva parte  
