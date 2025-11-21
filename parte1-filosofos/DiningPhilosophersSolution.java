@@ -1,6 +1,6 @@
 import java.util.concurrent.locks.ReentrantLock;
 
-public class JantarFilosofosSolucao {
+public class DiningPhilosophersSolution {
 
     private static final int N = 5;
     private static final ReentrantLock[] garfos = new ReentrantLock[N];
