@@ -5,7 +5,7 @@ Simular o problema clássico do Jantar dos Filósofos, demonstrar o impasse no p
 
 ---
 
-## ✔ Dinâmica do problema
+## Dinâmica do problema
 
 Cinco filósofos sentam-se em uma mesa circular. Cada um alterna entre:
 
@@ -18,7 +18,7 @@ O problema surge quando todos tentam pegar os garfos simultaneamente.
 
 ---
 
-## ❌ Protocolo ingênuo — com deadlock
+## Protocolo ingênuo — com deadlock
 
 No protocolo errado, cada filósofo:
 
@@ -37,7 +37,7 @@ Código: `JantarFilosofosDeadlock.java`
 
 ---
 
-## ✔ Solução — Hierarquia de recursos
+## Solução — Hierarquia de recursos
 
 Para evitar o impasse, adotamos uma **ordem global fixa**:
 
@@ -46,15 +46,6 @@ Cada filósofo sempre adquire primeiro o garfo de **menor índice**, depois o de
 Isso elimina a condição de **espera circular**, impossibilitando o deadlock.
 
 Código: `JantarFilosofosSolucao.java`
-
----
-
-## Arquivos deste diretório
-
-| Arquivo | Descrição |
-|--------|-----------|
-| `JantarFilosofosDeadlock.java` | Implementação com deadlock (protocolo ingênuo). |
-| `JantarFilosofosSolucao.java` | Implementação correta usando hierarquia de recursos. |
 
 ---
 
