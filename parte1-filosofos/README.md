@@ -49,9 +49,28 @@ Código: `DiningPhilosophersSolution.java`
 
 ---
 
+## Saídas / prints
+
+Abaixo estão os registros de execução dos dois protocolos implementados:
+
+### Protocolo Ingênuo (com risco de impasse)
+O print abaixo mostra a execução do algoritmo ingênuo, onde cada filósofo tenta pegar primeiro o garfo da esquerda e depois o da direita.  
+É possível observar que o sistema entra em impasse, pois todos ficam aguardando o segundo garfo.
+
+![Protocolo Ingênuo](../docs/parte1-print1.png)
+
+---
+
+### Protocolo com Hierarquia de Recursos (sem impasse)
+O print abaixo mostra o funcionamento correto utilizando a estratégia de hierarquia de recursos.  
+Os filósofos alternam entre pensar, ter fome e comer sem travamentos.
+
+![Protocolo Corrigido](../docs/parte1-print2.png)
+
+
 ## Execução e Compilação 
 
-## Executar
+### Executar
 ```bash
 javac DiningPhilosophersDeadlock.java
 javac DiningPhilosophersSolution.java
