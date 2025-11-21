@@ -6,7 +6,7 @@ Demonstrar uma condição de corrida ao incrementar um contador compartilhado co
 ---
 
 ## 1. Condição de Corrida — Sem Sincronização
-Arquivo: `CorridaSemControle.java`
+Código: `CorridaSemControle.java`
 
 - `count++` não é atômico.
 - Threads concorrem para escrever no mesmo valor.
@@ -16,7 +16,7 @@ Arquivo: `CorridaSemControle.java`
 ---
 
 ## 2. Solução — Semáforo Binário
-Arquivo: `CorridaComSemaphore.java`
+Código: `CorridaComSemaphore.java`
 
 - Usa `Semaphore(1, true)` para garantir exclusão mútua.
 - Cada thread só incrementa quando possui a permissão.
