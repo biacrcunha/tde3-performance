@@ -25,7 +25,7 @@ Arquivo: `CorridaComSemaphore.java`
 
 ---
 
-## Como Executar
+## Execução e Compilação
 
 ### Compilar
 ```bash
