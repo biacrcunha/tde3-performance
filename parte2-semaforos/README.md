@@ -25,6 +25,16 @@ Código: `CorridaComSemaphore.java`
 
 ---
 
+## Saídas / prints
+
+As saídas da Parte 2 foram registradas diretamente como comentários nos arquivos Java:
+
+- `CorridaSemControle.java` → saída da execução sem sincronização, mostrando perda de incrementos.
+- `CorridaComSemaphore.java` → saída da execução com semáforo binário, mostrando valor correto.
+
+Os comentários incluem: valor esperado, valor obtido e tempo total de execução.
+
+
 ## Execução e Compilação
 
 ### Compilar
