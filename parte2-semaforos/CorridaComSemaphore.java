@@ -42,3 +42,7 @@ public class CorridaComSemaphore {
         );
     }
 }
+/*
+Saída:
+Esperado=80000 | Obtido=80000 | Tempo=0,124s
+ */
