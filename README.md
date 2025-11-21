@@ -32,14 +32,16 @@ Cada código pode ser compilado com:
 
 ```bash
 javac NomeDoArquivo.java
-```bash
+```
 
 E executado com:
 
 ```bash
 java NomeDaClasse
-```bash
+```
 
 As instruções específicas estão descritas nos READMEs de cada parte.
+
+## Vídeo de apresentação
 
 
