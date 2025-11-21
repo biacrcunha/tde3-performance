@@ -10,9 +10,12 @@ Trabalho desenvolvido para a disciplina de Sistemas Operacionais.
 ## Estrutura do repositório
 
 parte1-filosofos/ → Jantar dos Filósofos (impasse e solução)
+
 parte2-semaforos/ → Condição de corrida e semáforo binário
+
 parte3-deadlock/ → Deadlock com dois locks e prevenção
-relatorio_final.pdf 
+
+tde3-relatorio.pdf 
 
 Cada pasta contém:
 - Códigos Java da respectiva parte  
